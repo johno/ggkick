@@ -1,0 +1,25 @@
+{
+  "name": "ggkick",
+  "version": "1.0.0",
+  "description": "Git push force with allow-empty that automatically infers the current branch",
+  "author": "John Otander <johnotander@gmail.com> (http://johnotander.com/)",
+  "repository": "johnotander/ggkick",
+  "license": "MIT",
+  "bin": "ggkick.sh",
+  "files": [
+    "ggkick.sh"
+  ],
+  "keywords": [
+    "cli-app",
+    "git",
+    "push",
+    "ggkick",
+    "sh"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "git-current-branch": "^1.0.3"
+  }
+}
