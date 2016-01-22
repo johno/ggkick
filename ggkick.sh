@@ -6,5 +6,5 @@ if [ "$currBranch" = "master" ]; then
   echo 'Cannot kick master'
   exit 1
 else
-  git commit --amend --no-edit && git push origin $currBranch -f
+  git commit --amend --no-edit && git push -f origin $currBranch
 fi
